@@ -1,6 +1,6 @@
 # Zero-shot time series forecasting with Chronos using Amazon Bedrock and ClickHouse
 
-A serverless pipeline for zero-shot forecasting of time series data stored in ClickHouse using Amazon Chronos deployed on Amazon Bedrock. An AWS Lambda function queries the context data from ClickHouse, invokes the Bedrock endpoint, and returns probabilistic forecasts.
+A serverless pipeline for forecasting time series data stored in ClickHouse using Amazon Chronos deployed on Amazon Bedrock. An AWS Lambda function queries the context data from ClickHouse, invokes the Bedrock endpoint, and returns zero-shot probabilistic forecasts.
 
 Full details in the [blog post](https://flaviagiammarino.com/blog/chronos_bedrock.html/).
 
